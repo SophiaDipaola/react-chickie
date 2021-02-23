@@ -1,19 +1,19 @@
-// import logo from './logo.svg';
-import './App.css';
 
-function nuggz() {
+import Animal from './Animal'
+import Human from './human'
+import Book from './Book'
+
+function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-        <p>
-          dino chickie nuggz are higher beings
-          who actually live in a pneapple under the sea? tune in to find out
-        </p>
-      
-      </header>
+    <div>
+    <h1>Animal</h1>
+    <Animal mammal="dog"/>
+    <Animal mammal="cat"/>
+    <Animal mammal="tiger" name="rocco"/>
+    <Human name="Sophia" location="Bay Area"/>
+    
     </div>
   );
-}
+  }
 
-export default nuggz;
+export default App;
